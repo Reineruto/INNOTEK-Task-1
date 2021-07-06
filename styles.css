@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Castoro;
+    src: url(fonts//JosefinSans-VariableFont_wght.ttf)
+}
+@font-face {
+    font-family: MenuItemFont;
+    src: url(fonts//RobotoCondensed-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-line{
+    height: 180px;
+    width: 100%;
+    position: relative;
+    background:yel
+}
+.logo-row{
+    top:30px;
+    left:30px;
+    position: absolute;
+    height:120px;
+    width: 100%;
+}
+div.search input{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    position:absolute;
+    border: 1px solid gold;
+    border-radius: 90px;
+    top:30px;
+    right: 90px;
+    outline: none;
+}
+.social{
+    position: absolute;
+    right:500px;
+    top:25px;
+}
+.social li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social li img {
+    width: 50px;
+    height: 50px;
+    border:3px solid rgba(255, 255, 255, 0);
+    transition: all 0.3s ease 0s;
+    
+}
+.social li img:hover{
+    background:gray;
+    border:3px solid black;
+}
+.name-near-logo{
+    margin: 0px;
+    top: 20px;
+    padding: 0px;
+    position: absolute;
+    font-family: Castoro;
+    font-size: 30px;
+    line-height: 40px;
+    left: 180px;
+    text-align-last: center;
+}
+.navig{
+    position: sticky;
+    top: 10px;
+}
+.menu-bar1 ul{
+    overflow: auto;
+}
+.menu-bar1 li{
+    float: left;
+    list-style-type: none;
+    padding:0px 35px;
+}
+.menu-bar1 li a{
+    background: white;
+    color: black;
+    display: block;
+    width:180px;
+    font-family: MenuItemFont;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border:0.05px solid grey;
+    border-bottom: 3px solid gold;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;  
+}
+.menu-bar1 li a:hover{
+    background:gray;
+}
+.sub-menu1{
+    display: none;
+}
+.sub-menu2{
+    display: none;
+}
+.sub-menu3{
+    display: none;
+}
+.sub-menu4{
+    display: none;
+}
+.sub-menu5{
+    display: none;
+}
+.menu-bar1 ul li:hover .sub-menu1,.menu-bar1 ul li:hover .sub-menu2,.menu-bar1 ul li:hover .sub-menu3,.menu-bar1 ul li:hover .sub-menu4,.menu-bar1 ul li:hover .sub-menu5{
+    display: block;
+    position: absolute;
+    background-color: gold;
+    border-top: 10px solid rgba(0, 0, 0, 0.055);
+}
+.menu-bar1 ul li .sub-menu1 li,.menu-bar1 ul li .sub-menu2 li,.menu-bar1 ul li .sub-menu3 li,.menu-bar1 ul li .sub-menu4 li,.menu-bar1 ul li .sub-menu5 li{
+    float: none;
+    padding: 15px;
+    border-bottom: 3px solid black;
+}
+.menu-bar1 ul li .sub-menu1 a,.menu-bar1 ul li .sub-menu2 a,.menu-bar1 ul li .sub-menu3 a,.menu-bar1 ul li .sub-menu4 a,.menu-bar1 ul li .sub-menu5 a{
+    border-color: gold;
+    background: gold;
+}
+.menu-bar1 ul li .sub-menu1 a:hover,.menu-bar1 ul li .sub-menu2 a:hover,.menu-bar1 ul li .sub-menu3 a:hover,.menu-bar1 ul li .sub-menu4 a:hover,.menu-bar1 ul li .sub-menu5 a:hover{
+    background: gray;
+}
+.menu-bar1 ul li .sub-menu1 li:last-child,.menu-bar1 ul li .sub-menu2 li:last-child,.menu-bar1 ul li .sub-menu3 li:last-child,.menu-bar1 ul li .sub-menu4 li:last-child,.menu-bar1 ul li .sub-menu5 li:last-child{
+    border-bottom: none;
+}
+.bg-photo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.bg-photo img{
+    margin-top: 10px;
+    width: 100%;
+}
+.photo-overlay-text{
+    position: absolute;
+    font-size: 80px;
+    font-family: Castoro;
+    display: block;
+    background: rgba(255, 217, 0, 0.767);
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+.welcome{
+    background: gold;
+    padding:50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Castoro;
+}
+.sub1{
+    font-size: 35px;
+    text-decoration: underline;
+}
+.obj-entire{
+    font-size: 25px;
+    font-family: Castoro;
+    padding:20px;
+}
+.obj{
+    text-align: center;
+    text-decoration: underline;
+    padding:40px;
+}
+.obj-content{
+    text-align: center;
+}
+.copyright{
+    background: rgb(34, 30, 30);
+    color: white;
+    text-align: center;
+    word-spacing: 15px;
+}
+.footer{
+    background: gold;
+    position: relative;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot2{
+    font-family: Castoro;
+    padding:15px;   
+}
+.foot1{
+    font-family: Castoro;
+}
+.phone img{
+    width:100px;
+    height:100px;
+}
